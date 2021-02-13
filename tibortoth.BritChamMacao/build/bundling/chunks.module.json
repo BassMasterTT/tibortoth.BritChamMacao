@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "8ea4f7b099d11de25f39",
+  "publicPath": "/static/",
+  "outputPath": "D:\\tibortoth.ml.frontity\\tibortoth.BritChamMacao\\build\\static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "tibortoth": "tibortoth.module.js"
+  },
+  "assets": [
+    {
+      "name": "list.module.js",
+      "size": 47297,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "tibortoth.module.js",
+      "size": 6474526,
+      "chunks": [
+        "tibortoth"
+      ],
+      "chunkNames": [
+        "tibortoth"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "tibortoth": {
+      "chunks": [
+        "tibortoth"
+      ],
+      "assets": [
+        "tibortoth.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "tibortoth": {
+      "chunks": [
+        "tibortoth"
+      ],
+      "assets": [
+        "tibortoth.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "list",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 30120,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "8236dcaf3d9f5a67de16",
+      "siblings": [],
+      "parents": [
+        "tibortoth"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "tibortoth",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1668499,
+      "names": [
+        "tibortoth"
+      ],
+      "files": [
+        "tibortoth.module.js"
+      ],
+      "hash": "07234a1b9495a5bab7e4",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
