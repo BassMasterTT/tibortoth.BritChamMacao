@@ -3,7 +3,7 @@ const settings = {
   state: {
     frontity: {
       url: "https://test.frontity.org",
-      title: "Test Frontity Blog",
+      title: "British Chamber of Commerce Macao",
       description: "WordPress installation for Frontity development",
     },
   },
